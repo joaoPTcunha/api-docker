@@ -4,6 +4,15 @@ Este projeto é uma API para gestão de utilizadores, incluindo endpoints para c
 
 ---
 
+## Índice
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Como Configurar o Projeto](#como-configurar-o-projeto)
+- [Como Utilizar com Docker](#como-utilizar-com-docker)
+- [Endpoints da API](#endpoints-da-api)
+- [Docker](#docker)
+
+---
+
 ## Estrutura do Projeto
 
 ```
@@ -14,7 +23,10 @@ Este projeto é uma API para gestão de utilizadores, incluindo endpoints para c
 ├── docker-compose-prod.yml    # Configuração Docker para produção
 ├── package.json               # Definições e scripts do projeto
 ├── server.js                  # Ficheiro principal da aplicação
-└── README.md                  # Documentação do projeto
+├── README.md                  # Documentação principal do projeto
+├── API.md                     # Documentação da API
+└── .gitignore                 # Ficheiro para ignorar itens no controlo de versão
+
 ```
 
 ---
@@ -137,26 +149,10 @@ npm run prod:docker:logs
 
 ---
 
-## Como Contribuir
+### Docker
 
-1. Crie uma nova branch para as suas alterações:
-```bash
-git checkout -b minha-branch
-```
+Você pode usar a imagem Docker associada a este projeto clicando no link abaixo:
 
-2. Faça commit das suas alterações:
-```bash
-git commit -m "Descrição das alterações"
-```
+[![Docker Image](https://img.shields.io/badge/Docker%20Hub-joaocunhadocker--api%3A1.0.0-blue?logo=docker)](https://hub.docker.com/layers/joaoptcunha/joaocunhadocker-api/1.0.0/images/sha256:22d34d5265618876c0432b5e6365bca21849bb25f3fd7fc1a6ac1da703a404b6?uuid=3E7AC59F-4103-4C98-BAF3-BF22A5A9F8A3)
 
-3. Submeta a sua branch para revisão:
-```bash
-git push origin minha-branch
-```
-
----
-
-## Licença
-
-Este projeto está licenciado sob a licença ISC.
-
+Clique na badge acima para acessar a imagem no Docker Hub.
