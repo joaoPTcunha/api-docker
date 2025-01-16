@@ -5,10 +5,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",
-    "desenvolvimento:docker": "docker-compose -f docker-compose-dev.yml up --build -d",
-    "producao:docker": "docker-compose -f docker-compose-prod.yml up --build",
-    "producao:docker:logs": "docker-compose -f docker-compose-prod.yml up --build -d",
-    "desenvolvimento:docker:logs": "docker-compose -f docker-compose-dev.yml up"
+    "dev:docker": "docker-compose -f docker-compose-dev.yml up --build -d",
+    "prod:docker": "docker-compose -f docker-compose-prod.yml up --build",
+    "prod:docker:logs": "docker-compose -f docker-compose-prod.yml up --build -d",
+    "dev:docker:logs": "docker-compose -f docker-compose-dev.yml up"
   },
   "keywords": [],
   "author": "",
