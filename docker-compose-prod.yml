@@ -1,6 +1,6 @@
 services:
   app:
-    image: joaoptcunha/joaocunhadocker-api:1.0.0:latest
+    image: joaoptcunha/joaocunhadocker-api:1.0.0
     environment:
       NODE_ENV: production
       POSTGRES_USER: ${POSTGRES_USER}
