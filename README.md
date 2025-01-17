@@ -153,6 +153,6 @@ npm run prod:docker:logs
 
 Você pode usar a imagem Docker associada a este projeto clicando no link abaixo:
 
-[![Docker Image](https://img.shields.io/badge/Docker%20Hub-joaocunhadocker--api%3A1.0.0-blue?logo=docker)](https://hub.docker.com/layers/joaoptcunha/joaocunhadocker-api/1.0.0/images/sha256:22d34d5265618876c0432b5e6365bca21849bb25f3fd7fc1a6ac1da703a404b6?uuid=3E7AC59F-4103-4C98-BAF3-BF22A5A9F8A3)
+[![Docker Image](https://img.shields.io/badge/Docker%20Hub-joaocunhadocker--api%3A1.0.0-blue?logo=docker)](https://hub.docker.com/r/joaoptcunha/joaocunhadocker-api/tags)
 
 Clique na badge acima para acessar a imagem no Docker Hub.
