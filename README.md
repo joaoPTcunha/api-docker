@@ -9,6 +9,7 @@ Este projeto é uma API para gestão de utilizadores, incluindo endpoints para c
 - [Como Configurar o Projeto](#como-configurar-o-projeto)
 - [Como Utilizar com Docker](#como-utilizar-com-docker)
 - [Endpoints da API](#endpoints-da-api)
+- [Documentação da API com Swagger](#documentação-da-api-com-swagger)
 - [Docker](#docker)
 
 ---
@@ -26,7 +27,6 @@ Este projeto é uma API para gestão de utilizadores, incluindo endpoints para c
 ├── README.md                  # Documentação principal do projeto
 ├── API.md                     # Documentação da API
 └── .gitignore                 # Ficheiro para ignorar itens no controlo de versão
-
 ```
 
 ---
@@ -149,10 +149,21 @@ npm run prod:docker:logs
 
 ---
 
-### Docker
+## Documentação da API com Swagger
+
+Para explorar e testar a API, acesse a documentação interativa do Swagger no seguinte endereço:
+
+**[http://localhost:4000/docs](http://localhost:4000/docs)**
+
+O Swagger oferece uma interface intuitiva para testar todos os endpoints, verificar os formatos de requisição e resposta, e garantir o funcionamento da API.
+
+---
+
+## Docker
 
 Você pode usar a imagem Docker associada a este projeto clicando no link abaixo:
 
 [![Docker Image](https://img.shields.io/badge/Docker%20Hub-joaocunhadocker--api%3A1.0.0-blue?logo=docker)](https://hub.docker.com/r/joaoptcunha/joaocunhadocker-api/tags)
 
 Clique na badge acima para acessar a imagem no Docker Hub.
+
